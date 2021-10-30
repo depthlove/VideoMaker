@@ -25,5 +25,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(path: ':libpushflow')
+    implementation project(path: ':libpushflow')
 }

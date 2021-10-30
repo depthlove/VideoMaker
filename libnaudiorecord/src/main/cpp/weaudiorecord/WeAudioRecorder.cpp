@@ -349,7 +349,7 @@ bool WeAudioRecorder::_initRecorder() {
     };
     SLDataFormat_PCM pcmFormat = {
             SL_DATAFORMAT_PCM,// 数据格式：pcm
-            channelNum,// 声道数
+            (SLuint32)channelNum,// 声道数
             slSampleRate,// 采样率
             slEncodingBits,// bitsPerSample
             slEncodingBits,// containerSize：和采样位数一致就行

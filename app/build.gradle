@@ -42,4 +42,5 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.github.zcweng:switch-button:0.0.3@aar'
     implementation project(path: ':libmp3util')
+    implementation project(path: ':libpushflow')
 }
